@@ -1,0 +1,55 @@
+body{
+    background: rgb(153, 51, 255);
+}
+.wrapper{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    margin: 20px;
+    font-size: 1.9rem;
+    color: rgb(208, 214, 218);
+    font-family: monospace;
+    text-transform: uppercase;
+}
+.dice-area{
+    margin: 0px 50px;
+    text-align: center;
+    display: inline-block;
+
+}
+p{
+    font-size: 2.5rem;
+    color: rgb(208, 214, 218);
+    font-family: monospace;
+    text-transform: uppercase;
+}
+img{
+    width: 200px;
+}
+button{
+    padding: 10px;
+    width: 100px;
+    transform: translate(-360%, 100%);
+    cursor: pointer;
+    border: none;
+    background-color: #aa80ff;
+    outline: none;
+    border-radius: 20px;
+    color: white;
+    transition: 1s;
+
+}
+button:hover{
+    background: #ffff4d;
+    color: black;
+   
+}
+@media screen and (min-width:400){
+    .dice-area{
+        margin: 100px;
+        text-align: center;
+        display: inline-block;
+    } 
+}
